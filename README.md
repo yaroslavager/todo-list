@@ -20,7 +20,8 @@ I built this project to practise JavaScript, DOM manipulation, event handling, a
 Clone the repository:
 
 ```bash
-git clone https://github.com/yaroslavager/todo-list.git```
+git clone https://github.com/yaroslavager/todo-list.git
+```
 
 Open `index.html` in your browser.
 
@@ -44,6 +45,7 @@ Open `index.html` in your browser.
 Клонируй репозиторий:
 
 ```bash
-git clone https://github.com/yaroslavager/todo-list.git```
+git clone https://github.com/yaroslavager/todo-list.git
+```
 
 Открой `index.html` в браузере.
