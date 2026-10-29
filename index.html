@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width
+    , initial-scale=1.0"
+    />
+    <title>TodoList</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Первый шрифт -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Второй шрифт -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="background_buttons-wrapper">
+      <button
+        aria-label="Осенняя тема"
+        title="Осенняя тема"
+        class="button-background button-autumn"
+      >
+        A
+      </button>
+      <button
+        aria-label="Зимняя тема"
+        title="Зимняя тема"
+        class="button-background button-winter"
+      >
+        W
+      </button>
+      <button
+        aria-label="Летняя тема"
+        title="Летняя тема"
+        class="button-background button-summer"
+      >
+        S
+      </button>
+    </div>
+
+    <main
+      class="main_wrapper main_wrapper-autumn main_wrapper-winter main_wrapper-summer main_wrapper-spring"
+    >
+      <div class="todo-main">
+        <h1 id="h1">Autumn Todo</h1>
+        <form class="input_form">
+          <input
+            type="text"
+            class="todo-input"
+            placeholder="что нужно сделать?"
+            aria-label="Ввести новое дело"
+          />
+          <button type="submit" class="todo-button">Add</button>
+        </form>
+      </div>
+      <div class="todo-list_wrapper"></div>
+    </main>
+
+    <!-- ФОНЫ -->
+    <!-- Осенний фон -->
+    <div class="seasons season-autumn">
+      <img class="img img2a" src="./autumn/2a.png" alt="" />
+      <img class="img img3a" src="./autumn/3.png" alt="" />
+      <img class="img img4a" src="./autumn/4a.png" alt="" />
+      <img class="img img5a" src="./autumn/5a.png" alt="" />
+      <img class="img img6a" src="./autumn/6.jpg" alt="" />
+    </div>
+    <!-- Зимний фон -->
+    <div class="seasons season-winter">
+      <img class="img img1w" src="./winter/1w2.png" alt="" />
+      <img class="img img3w" src="./winter/3w.png" alt="" />
+      <img class="img img5w" src="./winter/8.jpg" alt="" />
+    </div>
+    <!-- Летний фон -->
+    <div class="seasons season-summer">
+      <img class="img imgs1" src="./summer/1s.jpg" alt="" />
+      <img class="img img2s" src="./summer/2s.png" alt="" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
