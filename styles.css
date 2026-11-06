@@ -82,6 +82,9 @@ h1 {
   top: 10px;
 }
 .button-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Dancing Script;
   font-weight: 700;
   font-size: 25px;
