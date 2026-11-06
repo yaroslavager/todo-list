@@ -20,6 +20,12 @@ body {
 .main_wrapper-autumn {
   background-color: whitesmoke;
 }
+.input_form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
 .todo-main {
   display: flex;
   flex-direction: column;
